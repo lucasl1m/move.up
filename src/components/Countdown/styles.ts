@@ -76,6 +76,7 @@ export const Container = styled.div`
 export const CountdownContainer = styled.div`
   display: flex;
   align-items: center;
+  font-family: Rajdhani;
   font-weight: 600;
   color: ${({ theme }) => theme.colors.title};
 
