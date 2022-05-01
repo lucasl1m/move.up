@@ -10,11 +10,11 @@ const Profile: React.FC = () => {
 
   return (
     <Container>
-      <img src="https://github.com/lucasl1m.png" alt="Profile" />
+      <img src="https://github.com/lucasl1m.png" alt="Profile"/>
       <div>
         <strong>Lucas Araújo de Lima</strong>
         <p>
-          <img src="icons/level.svg" alt="Level" />
+          <img src="icons/level.svg" alt="Level"/>
           Level {level}
         </p>
       </div>

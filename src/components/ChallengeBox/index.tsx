@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useContext } from "react";
 import { ChallengesContext } from "../../contexts/ChallengesContext";
 import { CountdownContext } from "../../contexts/CountdownContext";
@@ -28,9 +29,9 @@ const ChallengeBox: React.FC = () => {
 
           <main>
             {activeChallenge.type === "body" ? (
-              <img src="icons/body.svg" alt="" />
+              <Image src="icons/body.svg" alt="" layout="fill" />
             ) : (
-              <img src="icons/eye.svg" alt="" />
+              <Image src="icons/eye.svg" alt="" layout="fill" />
             )}
 
             <strong>Novo desafio</strong>
@@ -61,7 +62,7 @@ const ChallengeBox: React.FC = () => {
               <strong>Inicie um ciclo para receber desafios a serem completados</strong>
 
               <p>
-                <img src="icons/level-up.svg" alt="Level Up" />
+                <img src="icons/level-up.svg" alt="Level Up"/>
                 Complete-os e ganhe experiência e avance de level.
               </p>
             </div>
@@ -70,7 +71,7 @@ const ChallengeBox: React.FC = () => {
               <strong>Inicie um ciclo para receber desafios</strong>
 
               <p>
-                <img src="icons/level-up.svg" alt="Level Up" />
+                <img src="/icons/level-up.svg" alt="Level Up"/>
                 Avance de level completando os desafios.
               </p>
             </div>
