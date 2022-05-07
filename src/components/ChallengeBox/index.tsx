@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React, { useContext } from "react";
 import { ChallengesContext } from "../../contexts/ChallengesContext";
 import { CountdownContext } from "../../contexts/CountdownContext";
@@ -29,9 +28,9 @@ const ChallengeBox: React.FC = () => {
 
           <main>
             {activeChallenge.type === "body" ? (
-              <Image src="icons/body.svg" alt="" layout="fill" />
+              <img src="icons/body.svg" alt="" />
             ) : (
-              <Image src="icons/eye.svg" alt="" layout="fill" />
+              <img src="icons/eye.svg" alt="" />
             )}
 
             <strong>Novo desafio</strong>

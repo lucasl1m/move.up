@@ -1,7 +1,5 @@
 import React, { useContext } from "react";
 
-import Image from "next/image";
-
 import { Container } from "./styles";
 import { ChallengesContext } from "../../contexts/ChallengesContext";
 
