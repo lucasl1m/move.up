@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React, { useContext } from "react";
 
 import { MdClose, MdPlayArrow } from 'react-icons/md';
@@ -31,7 +30,7 @@ const Countdown: React.FC = () => {
       {hasFinished ? (
         <button disabled>
           Ciclo encerrado
-          <Image src="icons/check_circle.svg" alt="" className="icon" layout="fill"/>
+          <img src="icons/check_circle.svg" alt="" className="icon"/>
         </button>
       ) : (
         <>
