@@ -6,7 +6,7 @@
 </h1>
 
 <p align="left">🏃🏻 Move Up is a project to help people to make more exercises.</p>
-<p align="left">Deployed <a href="https://discord-clone-template.netlify.app/">here</a>.</p>
+<p align="left">Deployed <a href="move-up-pied.vercel.app/">here</a>.</p>
 
 <p align="left">
   <a href="https://github.com/lucasl1m/move.it/graphs/contributors">
